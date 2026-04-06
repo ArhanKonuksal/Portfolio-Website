@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "description": "Portfolio of Arhan Konuksal. Full stack developer specializing in PERN stack, clean architecture, and scalable web applications."
+  },
+
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "blogs": "Blogs"
+  },
+
+  "hero": {
+    "greeting": "Hi, I'm Arhan Konuksal.",
+    "headline": "I build reliable and scalable web applications.",
+    "subheadline": "PERN Stack developer with a strong focus on clean architecture, maintainable code, and real world problem solving.",
+    "cta": {
+      "primary": "View Projects",
+      "secondary": "Contact Me"
+    }
+  },
+
+  "intro": {
+    "text": "I'm a full-stack developer currently studying Applied Computer Science & AI, with hands on experience in building modern web applications using PostgreSQL, Express, React, and Node.js. I care deeply about structure, clarity, and building things that last."
+  },
+
+  "projects": {
+    "sectionTitle": "Selected Projects",
+    "cta": "View All Projects",
+    "pageTitle": "All Projects",
+    "pageSubtitle": "A complete list of my work and side projects. If you want to see more, you can visit my GitHub profile.",
+    "pageDescription": "Browse all projects by Arhan Konuksal — web applications, tools, and experiments.",
+    "travelAgencyBackend": {
+      "title": "Travel Agency API",
+      "description": "RESTful backend API built with Express.js and PostgreSQL for a travel agency. Covers tour packages, bookings, and user management."
+    },
+    "travelAgencyFrontend": {
+      "title": "Travel Agency Frontend",
+      "description": "React-based user interface integrated with the travel agency backend API. Includes tour search, filtering, and booking features."
+    },
+    "theVirtue": {
+      "title": "The Virtue Website",
+      "description": "A modern, professional corporate website with multi-language support built for The Virtue brand."
+    },
+    "beykoyDairies": {
+      "title": "Beyköy Dairies Website",
+      "description": "Corporate presentation website with multi-language support for Beyköy Dairies."
+    },
+    "ldh": {
+      "title": "Liberal Democracy Movement Website",
+      "description": "Corporate and informational website with multi-language support for the Liberal Democracy Movement."
+    },
+    "kibrisGenclik": {
+      "title": "Cyprus Youth & Development Association Website",
+      "description": "Promotional and event website with multi-language support for the Cyprus Youth and Development Association."
+    },
+    "muTorere": {
+      "title": "Mu Torere Game",
+      "description": "A desktop application of the traditional Maori strategy game Mu Torere, built with JavaFX."
+    },
+    "javaProjects": {
+      "title": "Java Projects",
+      "description": "A collection of Java programming projects covering various concepts and algorithms."
+    },
+    "binaryPuzzle": {
+      "title": "Binary Puzzle Game",
+      "description": "A logic and strategy-based binary puzzle game built with Java."
+    },
+    "portfolio": {
+      "title": "Portfolio Website",
+      "description": "A minimal, professional developer portfolio built with a custom design system and multi-language support."
+    },
+    "detail": {
+      "backToProjects": "Back to projects",
+      "techStackTitle": "Tech stack",
+      "linksTitle": "Links",
+      "githubLabel": "View source on GitHub",
+      "liveDemoLabel": "View live demo"
+    }
+  },
+
+  "stack": {
+    "sectionTitle": "Tech Stack",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "database": "Database",
+    "tools": "Tools & Practices",
+    "testing": "Testing",
+    "softSkills": "Soft Skills",
+    "languages": "Languages"
+  },
+
+  "home": {
+    "scrollDown": "Scroll down",
+    "about": {
+      "sectionTitle": "About Me",
+      "cta": "Learn More About Me →"
+    },
+    "stats": {
+      "projects": "Projects",
+      "technologies": "Technologies",
+      "languages": "Languages"
+    },
+    "blogs": {
+      "sectionTitle": "Latest from Blog",
+      "subtitle": "Thoughts, tutorials, and insights from my development journey.",
+      "cta": "Read All Posts →"
+    },
+    "contact": {
+      "title": "Let's Work Together"
+    }
+  },
+
+  "cta": {
+    "text": "I enjoy working on meaningful projects and continuously improving both my technical and architectural skills. If you think we could work well together, feel free to reach out.",
+    "button": "Get in Touch"
+  },
+
+  "about": {
+    "pageTitle": "About Me",
+    "pageDescription": "Learn more about Arhan Konuksal — background, skills, and approach to software development.",
+    "bio1": "I'm Arhan Konuksal, a full-stack developer currently studying Applied Computer Science & AI in Antwerp, Belgium.",
+    "bio2": "I specialize in building modern web applications using the PERN stack (PostgreSQL, Express, React, Node.js). My focus is on clean architecture, maintainable code, and creating solutions that solve real problems.",
+    "bio3": "When I'm not coding, I'm usually exploring new technologies, learning about system design, or working on side projects that challenge me to grow as a developer."
+  },
+
+  "contact": {
+    "pageTitle": "Get in Touch",
+    "pageSubtitle": "I'm always open to new opportunities and collaborations.",
+    "pageDescription": "Contact Arhan Konuksal for work opportunities, collaborations, or just to say hello.",
+    "form": {
+      "fullNameLabel": "Full Name",
+      "emailLabel": "Email",
+      "messageLabel": "Message",
+      "submitLabel": "Send"
+    }
+  },
+
+  "blogs": {
+    "pageTitle": "Blog",
+    "pageSubtitle": "Thoughts on software development, architecture, and technology.",
+    "pageDescription": "Read blog posts by Arhan Konuksal about software development, architecture, and technology.",
+    "minRead": "min read",
+    "backToBlogs": "Back to Blogs",
+    "tags": {
+      "life": "Life",
+      "personal": "Personal",
+      "abroad": "Abroad",
+      "career": "Career",
+      "software": "Software"
+    },
+    "posts": {
+      "livingAbroadAsCypriot": {
+        "title": "Living Abroad as a Cypriot",
+        "subtitle": "What I learned stepping out of my comfort zone and building a new life in Belgium.",
+        "content": [
+          { "type": "paragraph", "text": "Growing up in Cyprus and then going abroad for university wasn't just an educational decision for me. It was actually stepping into an entirely different life. When I first arrived in Belgium, what I noticed was that this place was a different world — not just physically, but mentally as well." },
+          { "type": "paragraph", "text": "In Cyprus, everything was more familiar, more comfortable, and slower. Here, everything is more structured, faster, and more individual. Nobody knows you, nobody guides you. You truly have to carve your own path. It's tough at first, but at the same time incredibly empowering." },
+          { "type": "heading", "text": "Stepping Out of the Comfort Zone" },
+          { "type": "paragraph", "text": "The biggest impact of living abroad is that it pulls you out of your comfort zone. You're away from your family, your usual routine is gone, and you have to handle even the simplest things on your own. But that's exactly why you grow. Your self confidence increases and the way you solve problems changes." },
+          { "type": "heading", "text": "A Different Perspective" },
+          { "type": "paragraph", "text": "Meeting people from different countries and seeing how they think seriously shifts your perspective. My view of technology and the business world became much clearer here. I started thinking more globally and gained a better understanding of where my work truly stands." },
+          { "type": "heading", "text": "Getting to Know Yourself" },
+          { "type": "paragraph", "text": "Perhaps most importantly, living abroad helps you get to know yourself. You discover what you want, what you can endure, and what you truly care about. This process isn't always easy, but it's definitely worth it." },
+          { "type": "paragraph", "text": "For me, living abroad isn't just an educational journey — it's a period where I've been growing as a person and shaping my life. And seeing where this journey takes me is truly exciting." }
+        ]
+      },
+      "journeyCyprusToBelgium": {
+        "title": "From Cyprus to Belgium: Building My Own Path",
+        "subtitle": "What I learned while leaving a small island and trying to find my place in the world of software.",
+        "content": [
+          { "type": "paragraph", "text": "Growing up in Cyprus gave me a lot. I was raised in a smaller, more familiar, and more comfortable environment. But at some point I realized: if I truly wanted to grow, I needed to step outside of where I was. Not just physically, but mentally as well." },
+          { "type": "paragraph", "text": "My interest in software started early, but it took time before I started taking it seriously. At first, I was mostly learning through trial and error. I built simple projects, tried different things, but didn't really know what I was doing. Over time I realized: just writing code isn't enough — you need to understand why you're doing what you're doing." },
+          { "type": "heading", "text": "The First Turning Point" },
+          { "type": "paragraph", "text": "The most important turning point in my self taught journey was when I started seeing software as a tool. Before, I was just focused on making things work. But then I realized the real goal is solving problems. Code is just a means to that end." },
+          { "type": "paragraph", "text": "With this awareness, my approach to projects changed. I stopped asking only 'does it work?' and started asking 'is it correct?', 'is it maintainable?', and 'is it scalable?'." },
+          { "type": "heading", "text": "Arriving in Belgium" },
+          { "type": "paragraph", "text": "Moving to Belgium was one of the most important steps in this journey. A new country, a new system, and a completely different lifestyle. Everything felt foreign at first, but it made me more disciplined and independent." },
+          { "type": "paragraph", "text": "While studying here, I also focused more on developing myself technically. I didn't just want to pass courses — I wanted to truly learn. So I started taking projects more seriously and raised my own standards." },
+          { "type": "heading", "text": "Learning by Doing" },
+          { "type": "paragraph", "text": "For me, the most effective way to learn has always been by doing. I started with small projects, then moved on to more complex systems. I made mistakes, sometimes started over, but each time I developed a better understanding." },
+          { "type": "paragraph", "text": "Working on full-stack development in particular gave me the opportunity to see the entire system. Understanding the relationship between frontend, backend, and database completely changed my perspective." },
+          { "type": "heading", "text": "A Shift in Perspective" },
+          { "type": "paragraph", "text": "Over time, my view of software became more professional. It's no longer just about being technically good — solving the right problems and creating real value matters more to me now." },
+          { "type": "paragraph", "text": "At the same time, my interest in the business side grew during this process. I realized that software isn't just a technical field — it's directly connected to business, strategy, and people." },
+          { "type": "heading", "text": "Today and Beyond" },
+          { "type": "paragraph", "text": "Today I still see myself at the beginning of the road, but I know what I'm doing much better now. I can see more clearly which areas I need to improve in, how I work, and what I'm aiming for." },
+          { "type": "paragraph", "text": "This journey from Cyprus to Belgium wasn't just a geographical change — it was a transformation in mindset. And I'm only just getting started." }
+        ]
+      }
+    }
+  },
+
+  "notFound": {
+    "pageTitle": "Page Not Found | Arhan Konuksal",
+    "pageDescription": "The page you're looking for doesn't exist.",
+    "title": "Page Not Found",
+    "text": "The page you're looking for doesn't exist or has been moved.",
+    "backHome": "Back to Home"
+  },
+
+  "accessibility": {
+    "skipToContent": "Skip to main content"
+  },
+
+  "footer": {
+    "copyright": "Arhan Konuksal",
+    "emailCopied": "Email copied to clipboard!"
+  }
+}

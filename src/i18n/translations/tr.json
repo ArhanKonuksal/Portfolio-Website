@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "description": "Arhan Konuksal'ın portfolyosu. PERN stack, clean architecture ve ölçeklenebilir web uygulamalarında uzmanlaşmış full-stack geliştirici."
+  },
+
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımda",
+    "projects": "Projeler",
+    "contact": "İletişim",
+    "blogs": "Bloglar"
+  },
+
+  "hero": {
+    "greeting": "Merhaba, ben Arhan Konuksal.",
+    "headline": "Güvenilir ve ölçeklenebilir web uygulamaları geliştiriyorum.",
+    "subheadline": "Clean architecture, sürdürülebilir kod ve gerçek dünya problem çözümüne güçlü bir odaklanma ile PERN Stack geliştiricisi.",
+    "cta": {
+      "primary": "Projeleri Gör",
+      "secondary": "İletişime Geç"
+    }
+  },
+
+  "intro": {
+    "text": "Uygulamalı Bilgisayar Bilimleri & Yapay Zeka öğrencisiyim ve PostgreSQL, Express, React ve Node.js kullanarak modern web uygulamaları geliştirme konusunda pratik deneyime sahibim. Yapı, netlik ve kalıcı şeyler inşa etmeye derinden önem veriyorum."
+  },
+
+  "projects": {
+    "sectionTitle": "Seçili Projeler",
+    "cta": "Tüm Projeleri Gör",
+    "pageTitle": "Tüm Projeler",
+    "pageSubtitle": "Çalışmalarımın ve yan projelerimin tam listesi. Daha fazlasını görmek istiyorsanız, GitHub profilimi ziyaret edebilirsiniz.",
+    "pageDescription": "Arhan Konuksal'ın tüm projelerine göz atın — web uygulamaları, araçlar ve deneyler.",
+    "travelAgencyBackend": {
+      "title": "Seyahat Acentesi Backend",
+      "description": "Seyahat acentesi için Express.js ve PostgreSQL ile geliştirilmiş RESTful backend API. Tur paketleri, rezervasyonlar ve kullanıcı yönetimini kapsar."
+    },
+    "travelAgencyFrontend": {
+      "title": "Seyahat Acentesi Frontend",
+      "description": "Seyahat acentesi backend API'si ile entegre çalışan React tabanlı kullanıcı arayüzü. Tur arama, filtreleme ve rezervasyon işlemleri içerir."
+    },
+    "theVirtue": {
+      "title": "The Virtue Web Sitesi",
+      "description": "The Virtue markası için çoklu dil desteğine sahip, modern ve profesyonel kurumsal web sitesi."
+    },
+    "beykoyDairies": {
+      "title": "Beyköy Süt Ürünleri Web Sitesi",
+      "description": "Beyköy Süt Ürünleri için çoklu dil desteğine sahip kurumsal tanıtım web sitesi."
+    },
+    "ldh": {
+      "title": "Liberal Demokrasi Hareketi Web Sitesi",
+      "description": "Liberal Demokrasi Hareketi için çoklu dil desteğine sahip kurumsal ve bilgilendirme amaçlı web sitesi."
+    },
+    "kibrisGenclik": {
+      "title": "Kıbrıs Gençlik ve Gelişim Derneği Web Sitesi",
+      "description": "Kıbrıs Gençlik ve Gelişim Derneği için çoklu dil desteğine sahip tanıtım ve etkinlik web sitesi."
+    },
+    "muTorere": {
+      "title": "Mu Torere Oyunu",
+      "description": "Geleneksel Maori strateji oyunu Mu Torere'nin JavaFX ile geliştirilmiş masaüstü uygulaması."
+    },
+    "javaProjects": {
+      "title": "Java Projeleri",
+      "description": "Farklı konsept ve algoritmaları kapsayan Java programlama projeleri koleksiyonu."
+    },
+    "binaryPuzzle": {
+      "title": "Binary Puzzle Oyunu",
+      "description": "Java ile geliştirilmiş, mantık ve strateji tabanlı binary bulmaca oyunu."
+    },
+    "portfolio": {
+      "title": "Portfolyo Web Sitesi",
+      "description": "Özel tasarım sistemi ve çoklu dil desteği ile oluşturulmuş minimal, profesyonel geliştirici portfolyosu."
+    },
+    "detail": {
+      "backToProjects": "Projeler sayfasına dön",
+      "techStackTitle": "Teknoloji yığını",
+      "linksTitle": "Bağlantılar",
+      "githubLabel": "Kaynağı GitHub'da görüntüle",
+      "liveDemoLabel": "Canlı demoyu görüntüle"
+    }
+  },
+
+  "stack": {
+    "sectionTitle": "Teknoloji Stack",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "database": "Veritabanı",
+    "tools": "Araçlar & Pratikler",
+    "testing": "Test",
+    "softSkills": "Kişisel Beceriler",
+    "languages": "Diller"
+  },
+
+  "home": {
+    "scrollDown": "Aşağı kaydır",
+    "about": {
+      "sectionTitle": "Hakkımda",
+      "cta": "Hakkımda Daha Fazla →"
+    },
+    "stats": {
+      "projects": "Proje",
+      "technologies": "Teknoloji",
+      "languages": "Dil"
+    },
+    "blogs": {
+      "sectionTitle": "Blogdan Son Yazılar",
+      "subtitle": "Geliştirme yolculuğumdan düşünceler, eğitimler ve içgörüler.",
+      "cta": "Tüm Yazıları Oku →"
+    },
+    "contact": {
+      "title": "Birlikte Çalışalım"
+    }
+  },
+
+  "cta": {
+    "text": "Anlamlı projeler üzerinde çalışmaktan ve hem teknik hem de mimari becerilerimi sürekli geliştirmekten keyif alıyorum. Birlikte iyi çalışabileceğimizi düşünüyorsanız, iletişime geçmekten çekinmeyin.",
+    "button": "İletişime Geç"
+  },
+
+  "about": {
+    "pageTitle": "Hakkımda",
+    "pageDescription": "Arhan Konuksal hakkında daha fazla bilgi edinin - geçmiş, beceriler ve yazılım geliştirme yaklaşımı.",
+    "bio1": "Ben Arhan Konuksal, şu anda Belçika'nın Antwerp şehrinde Uygulamalı Bilgisayar Bilimleri & Yapay Zeka okuyan bir full-stack geliştiriciyim.",
+    "bio2": "PERN stack (PostgreSQL, Express, React, Node.js) kullanarak modern web uygulamaları geliştirmede uzmanlaşıyorum. Odak noktam clean architecture, sürdürülebilir kod ve gerçek problemleri çözen çözümler oluşturmak.",
+    "bio3": "Kod yazmadığım zamanlarda genellikle yeni teknolojileri keşfediyorum, sistem tasarımı öğreniyorum veya geliştirici olarak büyümemi sağlayan yan projeler üzerinde çalışıyorum."
+  },
+
+  "contact": {
+    "pageTitle": "İletişime Geç",
+    "pageSubtitle": "Yeni fırsatlara ve işbirliklerine her zaman açığım.",
+    "pageDescription": "İş fırsatları, işbirlikleri veya sadece merhaba demek için Arhan Konuksal ile iletişime geçin.",
+    "form": {
+      "fullNameLabel": "İsim Soy İsim",
+      "emailLabel": "E-posta",
+      "messageLabel": "Mesaj",
+      "submitLabel": "Gönder"
+    }
+  },
+
+  "blogs": {
+    "pageTitle": "Blog",
+    "pageSubtitle": "Yazılım geliştirme, mimari ve teknoloji hakkında düşünceler.",
+    "pageDescription": "Arhan Konuksal'ın yazılım geliştirme, mimari ve teknoloji hakkındaki blog yazılarını okuyun.",
+    "minRead": "dk okuma",
+    "backToBlogs": "Bloglara Dön",
+    "tags": {
+      "life": "Hayat",
+      "personal": "Kişisel",
+      "abroad": "Yurtdışı",
+      "career": "Kariyer",
+      "software": "Yazılım"
+    },
+    "posts": {
+      "livingAbroadAsCypriot": {
+        "title": "Bir Kıbrıslı Olarak Yurtdışında Yaşamak",
+        "subtitle": "Kendi konfor alanımdan çıkıp Belçika'da yeni bir hayat kurarken öğrendiklerim.",
+        "content": [
+          { "type": "paragraph", "text": "Kıbrıs'ta büyümek ve sonra üniversite için yurtdışına gitmek benim için sadece bir eğitim kararı değildi. Aslında bu, tamamen farklı bir hayatın içine girmekti. Belçika'ya ilk geldiğimde fark ettiğim şey, buranın sadece fiziksel olarak değil, mental olarak da farklı bir dünya olduğuydu." },
+          { "type": "paragraph", "text": "Kıbrıs'ta her şey daha tanıdık, daha rahat ve daha yavaştı. Burada ise her şey daha sistemli, daha hızlı ve daha bireysel. Kimse seni tanımıyor, kimse seni yönlendirmiyor. Kendi yolunu gerçekten kendin çizmek zorundasın. Bu başta zor ama aynı zamanda inanılmaz geliştirici." },
+          { "type": "heading", "text": "Konfor Alanından Çıkmak" },
+          { "type": "paragraph", "text": "Yurtdışında yaşamanın en büyük etkisi, seni konfor alanından çıkarması. Ailenden uzaksın, alıştığın düzen yok ve en basit şeyleri bile kendin halletmek zorundasın. Ama tam da bu yüzden büyüyorsun. Kendine güvenin artıyor ve problemleri çözme şeklin değişiyor." },
+          { "type": "heading", "text": "Farklı Bir Perspektif" },
+          { "type": "paragraph", "text": "Farklı ülkelerden insanlarla tanışmak, onların nasıl düşündüğünü görmek bakış açını ciddi şekilde değiştiriyor. Özellikle teknoloji ve iş dünyasına bakışım burada çok daha netleşti. Daha global düşünmeye başladım ve yaptığım işlerin gerçekten nerede durduğunu daha iyi anladım." },
+          { "type": "heading", "text": "Kendini Tanımak" },
+          { "type": "paragraph", "text": "Belki de en önemlisi, yurtdışında yaşamak insanın kendini tanımasını sağlıyor. Ne istediğini, neye dayanabildiğini ve neyi gerçekten önemsediğini fark ediyorsun. Bu süreç her zaman kolay değil ama kesinlikle değerli." },
+          { "type": "paragraph", "text": "Benim için yurtdışında yaşamak sadece bir eğitim süreci değil, aynı zamanda kendimi geliştirdiğim ve hayatımı şekillendirdiğim bir dönem. Ve bu sürecin beni nereye götüreceğini görmek gerçekten heyecan verici." }
+        ]
+      },
+      "journeyCyprusToBelgium": {
+        "title": "Kıbrıs'tan Belçika'ya: Kendi Yolumu İnşa Etmek",
+        "subtitle": "Küçük bir adadan çıkıp yazılım dünyasında kendi yerimi bulmaya çalışırken öğrendiklerim.",
+        "content": [
+          { "type": "paragraph", "text": "Kıbrıs'ta büyümek bana birçok şey kattı. Daha küçük, daha tanıdık ve daha rahat bir ortamda yetiştim. Ama bir noktada şunu fark ettim: Eğer gerçekten büyümek istiyorsam, bulunduğum yerin dışına çıkmam gerekiyordu. Sadece fiziksel olarak değil, zihinsel olarak da." },
+          { "type": "paragraph", "text": "Yazılıma olan ilgim erken başladı ama bu ilgiyi ciddiye almam zaman aldı. Başta daha çok deneme-yanılma şeklinde ilerliyordum. Basit projeler yapıyor, farklı şeyler deniyor ama aslında ne yaptığımı tam olarak bilmiyordum. Zamanla şunu fark ettim: Sadece kod yazmak yeterli değil, neyi neden yaptığını anlaman gerekiyor." },
+          { "type": "heading", "text": "İlk Kırılma Noktası" },
+          { "type": "paragraph", "text": "Kendi kendime öğrendiğim süreçte en önemli kırılma noktası, yazılımı bir 'araç' olarak görmeye başlamamdı. Daha önce sadece bir şeyler çalıştırmaya odaklanıyordum. Ama sonra fark ettim ki asıl mesele problem çözmek. Kod sadece bunun bir yolu." },
+          { "type": "paragraph", "text": "Bu farkındalıkla birlikte projelere yaklaşımım değişti. Artık sadece 'çalışıyor mu?' değil, 'doğru mu?', 'sürdürülebilir mi?' ve 'ölçeklenebilir mi?' sorularını sormaya başladım." },
+          { "type": "heading", "text": "Belçika'ya Geliş" },
+          { "type": "paragraph", "text": "Belçika'ya taşınmak bu yolculuğun en önemli adımlarından biriydi. Yeni bir ülke, yeni bir sistem ve tamamen farklı bir yaşam tarzı. Başta her şey yabancıydı ama bu durum beni daha disiplinli ve daha bağımsız biri haline getirdi." },
+          { "type": "paragraph", "text": "Burada eğitim alırken aynı zamanda kendimi teknik olarak geliştirmeye daha fazla odaklandım. Sadece dersleri geçmek değil, gerçekten öğrenmek istedim. Bu yüzden projelere daha ciddi yaklaşmaya başladım ve kendi standartlarımı yükselttim." },
+          { "type": "heading", "text": "Yaparak Öğrenmek" },
+          { "type": "paragraph", "text": "Benim için en etkili öğrenme yöntemi her zaman yaparak öğrenmek oldu. Küçük projelerle başladım, sonra daha kompleks sistemlere geçtim. Hatalar yaptım, bazen baştan başladım ama her seferinde daha iyi bir anlayış geliştirdim." },
+          { "type": "paragraph", "text": "Özellikle full-stack geliştirme tarafında çalışmak bana sistemin tamamını görme fırsatı verdi. Frontend, backend ve veri tabanı arasındaki ilişkiyi anlamak bakış açımı tamamen değiştirdi." },
+          { "type": "heading", "text": "Bakış Açımın Değişmesi" },
+          { "type": "paragraph", "text": "Zamanla yazılıma bakışım daha profesyonel bir hale geldi. Artık sadece teknik olarak iyi olmak değil, doğru problemleri çözmek ve gerçek değer üretmek benim için daha önemli." },
+          { "type": "paragraph", "text": "Aynı zamanda iş dünyasına olan ilgim de bu süreçte arttı. Yazılımın sadece teknik bir alan olmadığını, aynı zamanda iş, strateji ve insanlarla doğrudan bağlantılı olduğunu fark ettim." },
+          { "type": "heading", "text": "Bugün ve Sonrası" },
+          { "type": "paragraph", "text": "Bugün kendimi hâlâ yolun başında görüyorum ama artık ne yaptığımı daha iyi biliyorum. Hangi alanlarda gelişmem gerektiğini, nasıl çalıştığımı ve neyi hedeflediğimi daha net bir şekilde görüyorum." },
+          { "type": "paragraph", "text": "Kıbrıs'tan başlayıp Belçika'ya uzanan bu süreç, sadece coğrafi bir değişim değil, aynı zamanda bir zihniyet dönüşümüydü. Ve bu yolculuğun henüz başındayım." }
+        ]
+      }
+    }
+  },
+
+  "notFound": {
+    "pageTitle": "Sayfa Bulunamadı | Arhan Konuksal",
+    "pageDescription": "Aradığınız sayfa bulunamadı.",
+    "title": "Sayfa Bulunamadı",
+    "text": "Aradığınız sayfa mevcut değil veya taşınmış olabilir.",
+    "backHome": "Ana Sayfaya Dön"
+  },
+
+  "accessibility": {
+    "skipToContent": "İçeriğe atla"
+  },
+
+  "footer": {
+    "copyright": "Arhan Konuksal",
+    "emailCopied": "E-posta adresi kopyalandı!"
+  }
+}

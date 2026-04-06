@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <!-- Subtle grid pattern -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grid)" opacity="0.5"/>
+  
+  <!-- Accent gradient overlay -->
+  <defs>
+    <linearGradient id="accent-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4F46E5;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#4F46E5;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#accent-gradient)"/>
+  
+  <!-- Logo/Initials -->
+  <text x="100" y="200" font-family="Inter, sans-serif" font-size="72" font-weight="700" fill="#4F46E5">AK</text>
+  
+  <!-- Name -->
+  <text x="100" y="320" font-family="Inter, sans-serif" font-size="64" font-weight="700" fill="#EDEDED">Arhan Konuksal</text>
+  
+  <!-- Role -->
+  <text x="100" y="400" font-family="Inter, sans-serif" font-size="32" font-weight="500" fill="#A3A3A3">Full-Stack PERN Developer</text>
+  
+  <!-- Tagline -->
+  <text x="100" y="480" font-family="Inter, sans-serif" font-size="24" font-weight="400" fill="#666666">Clean Architecture • Scalable Systems • Modern Web</text>
+  
+  <!-- Domain -->
+  <text x="100" y="560" font-family="Inter, sans-serif" font-size="20" font-weight="500" fill="#4F46E5">arhan-konuksal.dev</text>
+</svg>

@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "description": "Portfolio van Arhan Konuksal. Full-stack ontwikkelaar gespecialiseerd in PERN stack, clean architecture en schaalbare webapplicaties."
+  },
+
+  "nav": {
+    "home": "Home",
+    "about": "Over",
+    "projects": "Projecten",
+    "contact": "Contact",
+    "blogs": "Blogs"
+  },
+
+  "hero": {
+    "greeting": "Hallo, ik ben Arhan Konuksal.",
+    "headline": "Ik bouw betrouwbare en schaalbare webapplicaties.",
+    "subheadline": "PERN Stack ontwikkelaar met een sterke focus op clean architecture, onderhoudbare code en praktische probleemoplossing.",
+    "cta": {
+      "primary": "Bekijk Projecten",
+      "secondary": "Neem Contact Op"
+    }
+  },
+
+  "intro": {
+    "text": "Ik ben een full-stack ontwikkelaar die momenteel Toegepaste Informatica & AI studeert, met praktische ervaring in het bouwen van moderne webapplicaties met PostgreSQL, Express, React en Node.js. Ik hecht veel waarde aan structuur, duidelijkheid en het bouwen van dingen die blijven."
+  },
+
+  "projects": {
+    "sectionTitle": "Geselecteerde Projecten",
+    "cta": "Bekijk Alle Projecten",
+    "pageTitle": "Alle Projecten",
+    "pageSubtitle": "Een complete lijst van mijn werk en zijprojecten. Als je meer wilt zien, kun je mijn GitHub-profiel bezoeken.",
+    "pageDescription": "Bekijk alle projecten van Arhan Konuksal — webapplicaties, tools en experimenten.",
+    "travelAgencyBackend": {
+      "title": "Reisbureau API",
+      "description": "RESTful backend API gebouwd met Express.js en PostgreSQL voor een reisbureau. Omvat tourpakketten, boekingen en gebruikersbeheer."
+    },
+    "travelAgencyFrontend": {
+      "title": "Reisbureau Frontend",
+      "description": "React-gebaseerde gebruikersinterface geïntegreerd met de reisbureau backend API. Bevat tour zoeken, filteren en boekingsfuncties."
+    },
+    "theVirtue": {
+      "title": "The Virtue Website",
+      "description": "Een moderne, professionele bedrijfswebsite met meertalige ondersteuning gebouwd voor het merk The Virtue."
+    },
+    "beykoyDairies": {
+      "title": "Beyköy Zuivel Website",
+      "description": "Bedrijfspresentatie website met meertalige ondersteuning voor Beyköy Zuivel."
+    },
+    "ldh": {
+      "title": "Liberale Democratie Beweging Website",
+      "description": "Bedrijfs- en informatieve website met meertalige ondersteuning voor de Liberale Democratie Beweging."
+    },
+    "kibrisGenclik": {
+      "title": "Cyprus Jeugd & Ontwikkeling Vereniging Website",
+      "description": "Promotie- en evenementenwebsite met meertalige ondersteuning voor de Cyprus Jeugd en Ontwikkeling Vereniging."
+    },
+    "muTorere": {
+      "title": "Mu Torere Spel",
+      "description": "Een desktopapplicatie van het traditionele Maori-strategiespel Mu Torere, gebouwd met JavaFX."
+    },
+    "javaProjects": {
+      "title": "Java Projecten",
+      "description": "Een collectie van Java-programmeerprojecten die verschillende concepten en algoritmen omvatten."
+    },
+    "binaryPuzzle": {
+      "title": "Binary Puzzel Spel",
+      "description": "Een op logica en strategie gebaseerd binair puzzelspel gebouwd met Java."
+    },
+    "portfolio": {
+      "title": "Portfolio Website",
+      "description": "Een minimale, professionele ontwikkelaar portfolio gebouwd met een aangepast design systeem en meertalige ondersteuning."
+    },
+    "detail": {
+      "backToProjects": "Terug naar projecten",
+      "techStackTitle": "Tech stack",
+      "linksTitle": "Links",
+      "githubLabel": "Bekijk bron op GitHub",
+      "liveDemoLabel": "Bekijk live demo"
+    }
+  },
+
+  "stack": {
+    "sectionTitle": "Tech Stack",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "database": "Database",
+    "tools": "Tools & Praktijken",
+    "testing": "Testen",
+    "softSkills": "Soft Skills",
+    "languages": "Talen"
+  },
+
+  "home": {
+    "scrollDown": "Scroll naar beneden",
+    "about": {
+      "sectionTitle": "Over Mij",
+      "cta": "Meer Over Mij →"
+    },
+    "stats": {
+      "projects": "Projecten",
+      "technologies": "Technologieën",
+      "languages": "Talen"
+    },
+    "blogs": {
+      "sectionTitle": "Laatste van Blog",
+      "subtitle": "Gedachten, tutorials en inzichten uit mijn ontwikkelingsreis.",
+      "cta": "Lees Alle Berichten →"
+    },
+    "contact": {
+      "title": "Laten We Samenwerken"
+    }
+  },
+
+  "cta": {
+    "text": "Ik werk graag aan betekenisvolle projecten en verbeter continu zowel mijn technische als architecturale vaardigheden. Als je denkt dat we goed kunnen samenwerken, neem dan gerust contact op.",
+    "button": "Neem Contact Op"
+  },
+
+  "about": {
+    "pageTitle": "Over Mij",
+    "pageDescription": "Leer meer over Arhan Konuksal - achtergrond, vaardigheden en aanpak van softwareontwikkeling.",
+    "bio1": "Ik ben Arhan Konuksal, een full-stack ontwikkelaar die momenteel Toegepaste Informatica & AI studeert in Antwerpen, België.",
+    "bio2": "Ik ben gespecialiseerd in het bouwen van moderne webapplicaties met de PERN stack (PostgreSQL, Express, React, Node.js). Mijn focus ligt op clean architecture, onderhoudbare code en het creëren van oplossingen die echte problemen oplossen.",
+    "bio3": "Als ik niet aan het coderen ben, verken ik meestal nieuwe technologieën, leer ik over systeemontwerp, of werk ik aan zijprojecten die me uitdagen om te groeien als ontwikkelaar."
+  },
+
+  "contact": {
+    "pageTitle": "Neem Contact Op",
+    "pageSubtitle": "Ik sta altijd open voor nieuwe mogelijkheden en samenwerkingen.",
+    "pageDescription": "Neem contact op met Arhan Konuksal voor werkmogelijkheden, samenwerkingen of gewoon om hallo te zeggen.",
+    "form": {
+      "fullNameLabel": "Volledige naam",
+      "emailLabel": "E-mail",
+      "messageLabel": "Bericht",
+      "submitLabel": "Versturen"
+    }
+  },
+
+  "blogs": {
+    "pageTitle": "Blog",
+    "pageSubtitle": "Gedachten over softwareontwikkeling, architectuur en technologie.",
+    "pageDescription": "Lees blogposts van Arhan Konuksal over softwareontwikkeling, architectuur en technologie.",
+    "minRead": "min lezen",
+    "backToBlogs": "Terug naar Blogs",
+    "tags": {
+      "life": "Leven",
+      "personal": "Persoonlijk",
+      "abroad": "Buitenland",
+      "career": "Carrière",
+      "software": "Software"
+    },
+    "posts": {
+      "livingAbroadAsCypriot": {
+        "title": "In het Buitenland Wonen als Cyprioot",
+        "subtitle": "Wat ik leerde toen ik mijn comfortzone verliet en een nieuw leven opbouwde in België.",
+        "content": [
+          { "type": "paragraph", "text": "Opgroeien in Cyprus en dan naar het buitenland gaan voor de universiteit was voor mij niet alleen een studiekeuze. Het was eigenlijk het betreden van een compleet ander leven. Toen ik voor het eerst in België aankwam, merkte ik dat dit niet alleen fysiek, maar ook mentaal een andere wereld was." },
+          { "type": "paragraph", "text": "In Cyprus was alles vertrouwder, comfortabeler en langzamer. Hier is alles meer gestructureerd, sneller en individueler. Niemand kent je, niemand begeleidt je. Je moet echt je eigen weg uitstippelen. Dat is in het begin moeilijk, maar tegelijkertijd ongelooflijk vormend." },
+          { "type": "heading", "text": "De Comfortzone Verlaten" },
+          { "type": "paragraph", "text": "De grootste impact van in het buitenland wonen is dat het je uit je comfortzone haalt. Je bent ver van je familie, je vaste routine is er niet meer en je moet zelfs de eenvoudigste dingen zelf regelen. Maar juist daarom groei je. Je zelfvertrouwen neemt toe en je manier van problemen oplossen verandert." },
+          { "type": "heading", "text": "Een Ander Perspectief" },
+          { "type": "paragraph", "text": "Mensen uit verschillende landen ontmoeten en zien hoe zij denken verandert je perspectief aanzienlijk. Vooral mijn kijk op technologie en de zakenwereld werd hier veel helderder. Ik begon globaler te denken en begreep beter waar mijn werk werkelijk staat." },
+          { "type": "heading", "text": "Jezelf Leren Kennen" },
+          { "type": "paragraph", "text": "Misschien wel het belangrijkste is dat in het buitenland wonen je helpt jezelf te leren kennen. Je ontdekt wat je wilt, wat je aankunt en wat je echt belangrijk vindt. Dit proces is niet altijd makkelijk, maar het is zeker de moeite waard." },
+          { "type": "paragraph", "text": "Voor mij is in het buitenland wonen niet alleen een studieperiode — het is een tijd waarin ik als persoon groei en mijn leven vorm geef. En zien waar deze reis me naartoe brengt is echt spannend." }
+        ]
+      },
+      "journeyCyprusToBelgium": {
+        "title": "Van Cyprus naar België: Mijn Eigen Weg Bouwen",
+        "subtitle": "Wat ik leerde toen ik een klein eiland verliet en mijn plek probeerde te vinden in de wereld van software.",
+        "content": [
+          { "type": "paragraph", "text": "Opgroeien in Cyprus heeft me veel gegeven. Ik groeide op in een kleinere, vertrouwdere en comfortabelere omgeving. Maar op een gegeven moment realiseerde ik me: als ik echt wil groeien, moet ik buiten mijn huidige plek treden. Niet alleen fysiek, maar ook mentaal." },
+          { "type": "paragraph", "text": "Mijn interesse in software begon vroeg, maar het duurde even voordat ik het serieus nam. In het begin leerde ik vooral door trial and error. Ik bouwde simpele projecten, probeerde verschillende dingen, maar wist eigenlijk niet precies wat ik deed. Na verloop van tijd realiseerde ik me: alleen code schrijven is niet genoeg — je moet begrijpen waarom je doet wat je doet." },
+          { "type": "heading", "text": "Het Eerste Keerpunt" },
+          { "type": "paragraph", "text": "Het belangrijkste keerpunt in mijn zelfleerproces was toen ik software als een instrument begon te zien. Daarvoor was ik alleen maar gefocust op dingen laten werken. Maar toen realiseerde ik me dat het eigenlijke doel problemen oplossen is. Code is slechts een middel daartoe." },
+          { "type": "paragraph", "text": "Met dit besef veranderde mijn benadering van projecten. Ik stopte met alleen vragen 'werkt het?' en begon te vragen 'is het correct?', 'is het onderhoudbaar?' en 'is het schaalbaar?'." },
+          { "type": "heading", "text": "Aankomst in België" },
+          { "type": "paragraph", "text": "Verhuizen naar België was een van de belangrijkste stappen in deze reis. Een nieuw land, een nieuw systeem en een compleet andere levensstijl. In het begin voelde alles vreemd, maar het maakte me gedisciplineerder en onafhankelijker." },
+          { "type": "paragraph", "text": "Terwijl ik hier studeerde, richtte ik me ook meer op mijn technische ontwikkeling. Ik wilde niet alleen vakken halen — ik wilde echt leren. Daarom begon ik projecten serieuzer aan te pakken en verhoogde ik mijn eigen standaarden." },
+          { "type": "heading", "text": "Leren door te Doen" },
+          { "type": "paragraph", "text": "Voor mij is de meest effectieve manier van leren altijd al leren door te doen geweest. Ik begon met kleine projecten en ging daarna over naar complexere systemen. Ik maakte fouten, begon soms opnieuw, maar ontwikkelde elke keer een beter begrip." },
+          { "type": "paragraph", "text": "Vooral werken aan full-stack development gaf me de kans om het hele systeem te overzien. Het begrijpen van de relatie tussen frontend, backend en database veranderde mijn perspectief volledig." },
+          { "type": "heading", "text": "Een Verschuiving in Perspectief" },
+          { "type": "paragraph", "text": "Na verloop van tijd werd mijn kijk op software professioneler. Het gaat niet meer alleen om technisch goed zijn — de juiste problemen oplossen en echte waarde creëren is nu belangrijker voor mij." },
+          { "type": "paragraph", "text": "Tegelijkertijd groeide mijn interesse in de zakelijke kant tijdens dit proces. Ik realiseerde me dat software niet alleen een technisch vakgebied is — het is direct verbonden met business, strategie en mensen." },
+          { "type": "heading", "text": "Vandaag en Verder" },
+          { "type": "paragraph", "text": "Vandaag zie ik mezelf nog steeds aan het begin van de weg, maar ik weet nu veel beter wat ik doe. Ik kan duidelijker zien op welke gebieden ik moet verbeteren, hoe ik werk en waar ik naartoe wil." },
+          { "type": "paragraph", "text": "Deze reis van Cyprus naar België was niet alleen een geografische verandering — het was een transformatie in denkwijze. En ik sta nog maar aan het begin." }
+        ]
+      }
+    }
+  },
+
+  "notFound": {
+    "pageTitle": "Pagina Niet Gevonden | Arhan Konuksal",
+    "pageDescription": "De pagina die u zoekt bestaat niet.",
+    "title": "Pagina Niet Gevonden",
+    "text": "De pagina die u zoekt bestaat niet of is verplaatst.",
+    "backHome": "Terug naar Home"
+  },
+
+  "accessibility": {
+    "skipToContent": "Ga naar inhoud"
+  },
+
+  "footer": {
+    "copyright": "Arhan Konuksal",
+    "emailCopied": "E-mail gekopieerd naar klembord!"
+  }
+}

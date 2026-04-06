@@ -1,0 +1,6 @@
+# Robots.txt for arhan-konuksal.dev
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://arhan-konuksal.dev/sitemap.xml

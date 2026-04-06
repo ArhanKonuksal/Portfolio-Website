@@ -1,0 +1,19 @@
+/* ===========================================
+   MAIN STYLESHEET - FAZ 1 & 2 Design System
+   Import Order Matters!
+   =========================================== */
+
+/* 1. Design Tokens (CSS Variables) */
+@import './design-tokens.css';
+
+/* 2. Base Styles (Reset, Typography, Elements) */
+@import './base.css';
+
+/* 3. Utility Classes */
+@import './utilities.css';
+
+/* 4. Component Styles */
+@import './components.css';
+
+/* 5. Section/Page Styles */
+@import './sections.css';
