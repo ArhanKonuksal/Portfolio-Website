@@ -95,7 +95,7 @@
     "scrollDown": "Aşağı kaydır",
     "about": {
       "sectionTitle": "Hakkımda",
-      "cta": "Hakkımda Daha Fazla →"
+      "cta": "Hakkımda Daha Fazlası →"
     },
     "stats": {
       "projects": "Proje",
@@ -104,7 +104,7 @@
     },
     "blogs": {
       "sectionTitle": "Blogdan Son Yazılar",
-      "subtitle": "Geliştirme yolculuğumdan düşünceler, eğitimler ve içgörüler.",
+      "subtitle": "Hayat, yazılım ve kişisel gelişim hakkında düşünceler.",
       "cta": "Tüm Yazıları Oku →"
     },
     "contact": {

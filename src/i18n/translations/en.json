@@ -104,8 +104,8 @@
     },
     "blogs": {
       "sectionTitle": "Latest from Blog",
-      "subtitle": "Thoughts, tutorials, and insights from my development journey.",
-      "cta": "Read All Posts →"
+      "subtitle": "Thoughts living abroad, software development, and personal growth.",
+      "cta": "Read All Blogs →"
     },
     "contact": {
       "title": "Let's Work Together"
@@ -139,7 +139,7 @@
 
   "blogs": {
     "pageTitle": "Blog",
-    "pageSubtitle": "Thoughts on software development, architecture, and technology.",
+    "pageSubtitle": "Thoughts about life, software development, and personal growth.",
     "pageDescription": "Read blog posts by Arhan Konuksal about software development, architecture, and technology.",
     "minRead": "min read",
     "backToBlogs": "Back to Blogs",

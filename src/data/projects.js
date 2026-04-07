@@ -17,7 +17,7 @@ export const projects = [
     githubUrl: "https://github.com/ArhanKonuksal/Travel-Agency-fe",
     liveUrl: null,
     image: null,
-    featured: true,
+    featured: false,
   },
   {
     id: "the-virtue-website",
@@ -37,7 +37,7 @@ export const projects = [
     githubUrl: null,
     liveUrl: "https://dairy.ersoybaki.com/",
     image: null,
-    featured: true,
+    featured: false,
   },
   {
     id: "ldh-website",
@@ -47,7 +47,7 @@ export const projects = [
     githubUrl: null,
     liveUrl: "https://liberaldemokrasihareketi.com/",
     image: null,
-    featured: true,
+    featured: false,
   },
   {
     id: "kibris-genclik-dernegi-website",
@@ -67,7 +67,7 @@ export const projects = [
     githubUrl: "https://github.com/ArhanKonuksal/Mu-Torere-Game-JavaFX-",
     liveUrl: null,
     image: null,
-    featured: true,
+    featured: false,
   },
   {
     id: "java-projects",
@@ -77,7 +77,7 @@ export const projects = [
     githubUrl: "https://github.com/ArhanKonuksal/Java_Projects",
     liveUrl: null,
     image: null,
-    featured: true,
+    featured: false,
   },
   {
     id: "binary-puzzle-game",
@@ -87,7 +87,7 @@ export const projects = [
     githubUrl: "https://github.com/ArhanKonuksal/Binary-Puzzle-Game",
     liveUrl: null,
     image: null,
-    featured: true,
+    featured: false,
   },
   {
     id: "portfolio-website",
@@ -97,7 +97,7 @@ export const projects = [
     githubUrl: "https://github.com/arhankonuksal",
     liveUrl: "https://arhan-konuksal.dev",
     image: null,
-    featured: true,
+    featured: false,
   },
 ];
 

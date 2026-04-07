@@ -1,26 +1,12 @@
-import { useEffect } from "react";
+import { useRef } from "react";
 import { useTranslation } from "react-i18next";
+import ReCAPTCHA from "react-google-recaptcha";
 import { Button, Section } from "../../ui";
 import { RECAPTCHA_SITE_KEY } from "../../../env";
 
 const ContactSection = () => {
   const { t } = useTranslation();
-
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-
-    const existingScript = document.querySelector(
-      'script[src="https://www.google.com/recaptcha/api.js"]'
-    );
-
-    if (existingScript) return;
-
-    const script = document.createElement("script");
-    script.src = "https://www.google.com/recaptcha/api.js";
-    script.async = true;
-    script.defer = true;
-    document.body.appendChild(script);
-  }, []);
+  const recaptchaRef = useRef(null);
 
   return (
     <>
@@ -80,9 +66,9 @@ const ContactSection = () => {
             </div>
 
             <div className="form-recaptcha">
-              <div
-                className="g-recaptcha"
-                data-sitekey={RECAPTCHA_SITE_KEY}
+              <ReCAPTCHA
+                ref={recaptchaRef}
+                sitekey={RECAPTCHA_SITE_KEY}
               />
             </div>
 
