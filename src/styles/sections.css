@@ -38,6 +38,14 @@
   letter-spacing: -0.02em;
 }
 
+.header-logo-first {
+  color: var(--color-accent-hover);
+}
+
+[data-theme="dark"] .header-logo-first {
+  color: #ffffff;
+}
+
 .header-logo-accent {
   color: var(--color-accent);
   font-family: var(--font-hand);

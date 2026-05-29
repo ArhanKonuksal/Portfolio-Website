@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
 import { useState, useRef, useEffect } from "react";
-import { loadLanguage } from "../../i18n";
 import { ChevronDownIcon } from "../icons";
 
 const languages = [
@@ -16,9 +15,8 @@ const LanguageSwitcher = () => {
 
   const currentLang = languages.find((l) => l.code === i18n.language) || languages[0];
 
-  const handleLanguageChange = async (code) => {
-    await loadLanguage(code);
-    await i18n.changeLanguage(code);
+  const handleLanguageChange = (code) => {
+    i18n.changeLanguage(code);
     localStorage.setItem("language", code);
     setIsOpen(false);
   };

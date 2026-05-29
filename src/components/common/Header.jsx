@@ -20,7 +20,8 @@ const Header = () => {
       <div className="container">
         <div className="header-content">
           <Link to="/" className="header-logo">
-            Arhan <span className="header-logo-accent">Konuksal</span>
+            <span className="header-logo-first">Arhan</span>{" "}
+            <span className="header-logo-accent">Konuksal</span>
           </Link>
           
           <nav className="header-nav" aria-label="Main navigation">

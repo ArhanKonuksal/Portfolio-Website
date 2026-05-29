@@ -1,7 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
-import { initI18n } from "./i18n";
+import { initPromise } from "./i18n";
 import "./styles/index.css";
 
 const hideLoadingScreen = () => {
@@ -14,7 +14,7 @@ const hideLoadingScreen = () => {
   }
 };
 
-initI18n().then(() => {
+const renderApp = () => {
   createRoot(document.getElementById("root")).render(
     <StrictMode>
       <App />
@@ -26,4 +26,12 @@ initI18n().then(() => {
   } else {
     setTimeout(hideLoadingScreen, 100);
   }
+};
+
+// Never leave the loading screen spinning if init fails on production hosts.
+setTimeout(hideLoadingScreen, 8000);
+
+initPromise.then(renderApp).catch((error) => {
+  console.error("i18n initialization failed:", error);
+  renderApp();
 });

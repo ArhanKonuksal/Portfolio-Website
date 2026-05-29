@@ -9,27 +9,10 @@ export default defineConfig({
         manualChunks(id) {
           if (!id.includes('node_modules')) return
 
-          if (id.includes('react-dom') || id.includes('/react/')) {
-            return 'vendor-react'
-          }
-          if (id.includes('react-router')) {
-            return 'vendor-router'
-          }
-          if (id.includes('i18next') || id.includes('react-i18next')) {
-            return 'vendor-i18n'
-          }
-          if (id.includes('motion')) {
-            return 'vendor-motion'
-          }
-          if (id.includes('ogl')) {
-            return 'vendor-ogl'
-          }
-          if (id.includes('react-google-recaptcha')) {
-            return 'vendor-recaptcha'
-          }
-          if (id.includes('react-helmet-async')) {
-            return 'vendor-helmet'
-          }
+          // Only split heavy, route-level libraries to avoid circular chunk deps.
+          if (id.includes('motion')) return 'vendor-motion'
+          if (id.includes('ogl')) return 'vendor-ogl'
+          if (id.includes('react-google-recaptcha')) return 'vendor-recaptcha'
         },
       },
     },
