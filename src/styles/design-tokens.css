@@ -75,6 +75,7 @@
   --container-max-width: 1320px;
   --container-padding-mobile: var(--space-3);
   --container-padding-desktop: var(--space-6);
+  --header-height: 64px;
 
   /* ─────────────────────────────────────────
      BORDERS & RADIUS (organic, hand-feel)

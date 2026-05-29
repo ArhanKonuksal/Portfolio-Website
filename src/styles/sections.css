@@ -26,7 +26,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 64px;
+  height: var(--header-height);
 }
 
 .header-logo {
@@ -249,20 +249,35 @@
    ───────────────────────────────────────── */
 
 .hero-section {
-  min-height: 100vh;
-  min-height: 100dvh;
+  height: calc(100dvh - var(--header-height));
+  height: calc(100vh - var(--header-height));
+  padding-top: 0;
+  padding-bottom: 0;
   display: flex;
-  align-items: center;
-  padding-top: var(--space-12);
-  padding-bottom: var(--space-8);
+  flex-direction: column;
   position: relative;
   overflow: hidden;
 }
 
+.hero-section > .container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 0;
+  padding-top: clamp(1.25rem, 4vh, 2.5rem);
+  padding-bottom: clamp(0.75rem, 2vh, 1.25rem);
+}
+
 .hero-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   max-width: 700px;
   position: relative;
   z-index: 1;
+  min-height: 0;
 }
 
 .hero-greeting {
@@ -1149,15 +1164,18 @@
 }
 
 .hero-scroll-indicator {
-  position: absolute;
-  bottom: var(--space-4);
-  left: 50%;
-  transform: translateX(-50%);
+  position: relative;
+  bottom: auto;
+  left: auto;
+  transform: none;
+  align-self: center;
+  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: var(--space-1);
   z-index: 1;
+  margin-top: var(--space-2);
 }
 
 .hero-scroll-text {
@@ -1177,10 +1195,6 @@
 }
 
 @media (max-width: 767px) {
-  .hero-scroll-indicator {
-    display: none;
-  }
-
   .hero-gradient-blob {
     width: 300px;
     height: 300px;
@@ -1193,6 +1207,31 @@
     height: 250px;
     left: -20%;
     bottom: -15%;
+  }
+}
+
+@media (max-height: 720px) {
+  .hero-section > .container {
+    padding-top: var(--space-3);
+    padding-bottom: var(--space-2);
+  }
+
+  .hero-greeting {
+    font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+    margin-bottom: var(--space-1);
+  }
+
+  .hero-headline {
+    margin-bottom: var(--space-2);
+  }
+
+  .hero-subheadline {
+    margin-bottom: var(--space-3);
+    font-size: var(--font-size-body);
+  }
+
+  .hero-scroll-line {
+    height: 28px;
   }
 }
 
