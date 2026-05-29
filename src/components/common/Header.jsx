@@ -20,7 +20,7 @@ const Header = () => {
       <div className="container">
         <div className="header-content">
           <Link to="/" className="header-logo">
-            Arhan <span style={{ color: "var(--color-accent)", selection: "var(--color-white)" }}>Konuksal</span>
+            Arhan <span className="header-logo-accent">Konuksal</span>
           </Link>
           
           <nav className="header-nav" aria-label="Main navigation">

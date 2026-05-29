@@ -44,7 +44,7 @@ const SEO = ({
       {/* Additional SEO */}
       <meta name="robots" content="index, follow" />
       <meta name="author" content="Arhan Konuksal" />
-      <meta name="theme-color" content="#4F46E5" />
+      <meta name="theme-color" content="#10B981" />
     </Helmet>
   );
 };

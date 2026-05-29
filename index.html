@@ -17,8 +17,8 @@
     <link rel="apple-touch-icon" href="/favicon.svg" />
     
     <!-- Theme Color -->
-    <meta name="theme-color" content="#4F46E5" />
-    <meta name="msapplication-TileColor" content="#4F46E5" />
+    <meta name="theme-color" content="#10B981" />
+    <meta name="msapplication-TileColor" content="#10B981" />
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
@@ -69,13 +69,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     
-    <!-- Performance: Preload critical font -->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+    <!-- Performance: Preload critical fonts -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" as="style" />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
     
     <!-- Fallback for non-JS -->
     <noscript>
-      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
     </noscript>
     
     <!-- Dark Mode Flash Prevention + Loading Screen Setup -->
@@ -116,11 +116,11 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-color: #FFFFFF;
+        background-color: #FAFCF9;
         transition: opacity 0.4s ease, visibility 0.4s ease;
       }
       [data-theme="dark"] .loading-screen {
-        background-color: #0A0A0A;
+        background-color: #0C1210;
       }
       .loading-screen.hidden {
         opacity: 0;
@@ -128,17 +128,21 @@
         pointer-events: none;
       }
       .loading-logo {
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         font-weight: 700;
-        color: #0A0A0A;
+        color: #1A2420;
         margin-bottom: 2rem;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-family: 'Fraunces', Georgia, serif;
+        letter-spacing: -0.02em;
       }
       [data-theme="dark"] .loading-logo {
-        color: #EDEDED;
+        color: #E4EDE8;
       }
       .loading-logo span {
-        color: #4F46E5;
+        color: #10B981;
+        font-family: 'Caveat', cursive;
+        font-weight: 500;
+        font-size: 1.2em;
       }
       .loading-spinner {
         width: 48px;
@@ -153,15 +157,15 @@
       }
       .loading-spinner::before {
         inset: 0;
-        border: 3px solid #E5E5E5;
+        border: 3px solid #D4E0D9;
       }
       [data-theme="dark"] .loading-spinner::before {
-        border-color: #262626;
+        border-color: #243028;
       }
       .loading-spinner::after {
         inset: 0;
         border: 3px solid transparent;
-        border-top-color: #4F46E5;
+        border-top-color: #10B981;
         animation: spin 0.8s linear infinite;
       }
       @keyframes spin {
@@ -170,11 +174,11 @@
       .loading-text {
         margin-top: 1.5rem;
         font-size: 0.875rem;
-        color: #666666;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        color: #5C6B63;
+        font-family: 'Plus Jakarta Sans', sans-serif;
       }
       [data-theme="dark"] .loading-text {
-        color: #A3A3A3;
+        color: #8FA899;
       }
     </style>
   </head>
