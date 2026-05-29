@@ -1,13 +1,11 @@
 import { useTranslation } from "react-i18next";
+import { lazy, Suspense } from "react";
 import { SEO } from "../components/common";
-import {
-  HeroSection,
-  IntroSection,
-  ProjectsSection,
-  StackSection,
-  BlogsPreviewSection,
-  ContactCTASection,
-} from "../components/sections/home";
+import HeroSection from "../components/sections/home/HeroSection";
+
+const HomeBelowFold = lazy(
+  () => import("../components/sections/home/HomeBelowFold")
+);
 
 const Home = () => {
   const { t } = useTranslation();
@@ -21,11 +19,10 @@ const Home = () => {
       />
 
       <HeroSection />
-      <IntroSection />
-      <ProjectsSection />
-      <StackSection />
-      <BlogsPreviewSection />
-      <ContactCTASection />
+
+      <Suspense fallback={null}>
+        <HomeBelowFold />
+      </Suspense>
     </>
   );
 };

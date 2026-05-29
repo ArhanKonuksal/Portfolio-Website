@@ -1,4 +1,4 @@
-import { motion, useInView } from "motion/react";
+import { m, useInView } from "motion/react";
 import { useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate, Link } from "react-router-dom";
@@ -20,7 +20,7 @@ const cardVariants = {
 };
 
 const ProjectCard = ({ project, t, onClick, index }) => (
-  <motion.div
+  <m.div
     custom={index}
     variants={cardVariants}
     initial="hidden"
@@ -71,7 +71,7 @@ const ProjectCard = ({ project, t, onClick, index }) => (
         </div>
       </Card.Footer>
     </Card>
-  </motion.div>
+  </m.div>
 );
 
 const ProjectsSection = () => {
@@ -83,7 +83,7 @@ const ProjectsSection = () => {
 
   return (
     <Section id="projects" className="projects-section">
-      <motion.div
+      <m.div
         ref={headerRef}
         initial={{ opacity: 0, y: 30 }}
         animate={isHeaderInView ? { opacity: 1, y: 0 } : {}}
@@ -92,7 +92,7 @@ const ProjectsSection = () => {
         <Section.Header>
           <Section.Title>{t("projects.sectionTitle")}</Section.Title>
         </Section.Header>
-      </motion.div>
+      </m.div>
 
       <div className="projects-grid">
         {featuredProjects.map((project, i) => (
@@ -106,7 +106,7 @@ const ProjectsSection = () => {
         ))}
       </div>
 
-      <motion.div
+      <m.div
         className="projects-cta"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -116,7 +116,7 @@ const ProjectsSection = () => {
         <Button variant="ghost" as={Link} to="/projects">
           {t("projects.cta")}
         </Button>
-      </motion.div>
+      </m.div>
     </Section>
   );
 };

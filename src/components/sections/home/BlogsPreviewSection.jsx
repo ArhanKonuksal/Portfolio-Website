@@ -1,4 +1,4 @@
-import { motion, useInView } from "motion/react";
+import { m, useInView } from "motion/react";
 import { useRef } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -23,7 +23,7 @@ const BlogsPreviewSection = () => {
 
   return (
     <Section className="home-blogs-section">
-      <motion.div
+      <m.div
         ref={headerRef}
         initial={{ opacity: 0, y: 30 }}
         animate={isHeaderInView ? { opacity: 1, y: 0 } : {}}
@@ -33,11 +33,11 @@ const BlogsPreviewSection = () => {
           <Section.Title>{t("home.blogs.sectionTitle")}</Section.Title>
           <Section.Subtitle>{t("home.blogs.subtitle")}</Section.Subtitle>
         </Section.Header>
-      </motion.div>
+      </m.div>
 
       <div className="home-blogs-grid">
         {blogs.map((blog, i) => (
-          <motion.div
+          <m.div
             key={blog.id}
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -67,11 +67,11 @@ const BlogsPreviewSection = () => {
                 </div>
               </article>
             </Link>
-          </motion.div>
+          </m.div>
         ))}
       </div>
 
-      <motion.div
+      <m.div
         className="projects-cta"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -81,7 +81,7 @@ const BlogsPreviewSection = () => {
         <Button variant="ghost" as={Link} to="/blogs">
           {t("home.blogs.cta")}
         </Button>
-      </motion.div>
+      </m.div>
     </Section>
   );
 };

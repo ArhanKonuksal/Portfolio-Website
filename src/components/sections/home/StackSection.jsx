@@ -1,4 +1,4 @@
-import { motion, useInView } from "motion/react";
+import { m, useInView } from "motion/react";
 import { useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { Badge, Section } from "../../ui";
@@ -9,7 +9,7 @@ const StackGroup = ({ labelKey, items, t, delay = 0 }) => {
   const isInView = useInView(ref, { once: true, margin: "-50px" });
 
   return (
-    <motion.div
+    <m.div
       ref={ref}
       className="stack-group"
       initial={{ opacity: 0, y: 30 }}
@@ -19,7 +19,7 @@ const StackGroup = ({ labelKey, items, t, delay = 0 }) => {
       <h3 className="stack-group-title">{t(labelKey)}</h3>
       <div className="stack-group-items">
         {items.map((item, i) => (
-          <motion.span
+          <m.span
             key={item}
             initial={{ opacity: 0, scale: 0.8 }}
             animate={isInView ? { opacity: 1, scale: 1 } : {}}
@@ -30,10 +30,10 @@ const StackGroup = ({ labelKey, items, t, delay = 0 }) => {
             }}
           >
             <Badge>{item}</Badge>
-          </motion.span>
+          </m.span>
         ))}
       </div>
-    </motion.div>
+    </m.div>
   );
 };
 
@@ -45,7 +45,7 @@ const StackSection = () => {
 
   return (
     <Section id="stack" className="stack-section">
-      <motion.div
+      <m.div
         ref={headerRef}
         initial={{ opacity: 0, y: 30 }}
         animate={isHeaderInView ? { opacity: 1, y: 0 } : {}}
@@ -54,7 +54,7 @@ const StackSection = () => {
         <Section.Header>
           <Section.Title>{t("stack.sectionTitle")}</Section.Title>
         </Section.Header>
-      </motion.div>
+      </m.div>
 
       <div className="stack-grid">
         {categories.map(([key, { labelKey, items }], i) => (

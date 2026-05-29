@@ -1,4 +1,4 @@
-import { motion, useInView } from "motion/react";
+import { m, useInView } from "motion/react";
 import { useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
@@ -18,7 +18,7 @@ const IntroSection = () => {
   return (
     <Section id="about" className="intro-section">
       <div ref={sectionRef}>
-        <motion.div
+        <m.div
           className="intro-content"
           initial={{ opacity: 0, y: 40 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -26,16 +26,16 @@ const IntroSection = () => {
         >
           <h2 className="section-title">{t("home.about.sectionTitle")}</h2>
           <p className="intro-text">{t("intro.text")}</p>
-        </motion.div>
+        </m.div>
 
-        <motion.div
+        <m.div
           className="intro-stats"
           initial={{ opacity: 0 }}
           animate={isInView ? { opacity: 1 } : {}}
           transition={{ delay: 0.3, duration: 0.5 }}
         >
           {stats.map((stat, i) => (
-            <motion.div
+            <m.div
               key={stat.labelKey}
               className="intro-stat"
               initial={{ opacity: 0, y: 20 }}
@@ -51,11 +51,11 @@ const IntroSection = () => {
                 {stat.suffix}
               </span>
               <span className="intro-stat-label">{t(stat.labelKey)}</span>
-            </motion.div>
+            </m.div>
           ))}
-        </motion.div>
+        </m.div>
 
-        <motion.div
+        <m.div
           className="intro-cta"
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -64,7 +64,7 @@ const IntroSection = () => {
           <Button as={Link} to="/about" variant="ghost">
             {t("home.about.cta")}
           </Button>
-        </motion.div>
+        </m.div>
       </div>
     </Section>
   );

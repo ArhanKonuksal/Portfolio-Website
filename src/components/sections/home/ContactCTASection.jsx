@@ -1,4 +1,4 @@
-import { motion, useInView } from "motion/react";
+import { m, useInView } from "motion/react";
 import { useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
@@ -20,30 +20,30 @@ const ContactCTASection = () => {
         aria-hidden="true"
       />
 
-      <motion.div
+      <m.div
         ref={ref}
         className="cta-content"
         initial={{ opacity: 0, y: 40 }}
         animate={isInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
       >
-        <motion.h2
+        <m.h2
           className="section-title"
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 0.2, duration: 0.6 }}
         >
           {t("home.contact.title")}
-        </motion.h2>
-        <motion.p
+        </m.h2>
+        <m.p
           className="cta-text"
           initial={{ opacity: 0 }}
           animate={isInView ? { opacity: 1 } : {}}
           transition={{ delay: 0.4, duration: 0.6 }}
         >
           {t("cta.text")}
-        </motion.p>
-        <motion.div
+        </m.p>
+        <m.div
           initial={{ opacity: 0, y: 10 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 0.6, duration: 0.5 }}
@@ -51,8 +51,8 @@ const ContactCTASection = () => {
           <Button as={Link} to="/contact" variant="primary" size="lg">
             {t("cta.button")}
           </Button>
-        </motion.div>
-      </motion.div>
+        </m.div>
+      </m.div>
     </Section>
   );
 };
