@@ -75,6 +75,10 @@
       "title": "Portfolyo Web Sitesi",
       "description": "Özel tasarım sistemi ve çoklu dil desteği ile oluşturulmuş minimal, profesyonel geliştirici portfolyosu."
     },
+    "dateMeApp": {
+      "title": "Date Me Uygulaması",
+      "description": "Adım adım akış, çoklu dil desteği ve EmailJS onay e-postaları sunan eğlenceli, interaktif bir randevu davet web uygulaması. Neobrutalist tasarımla tamamen statik bir React uygulaması olarak geliştirildi."
+    },
     "detail": {
       "backToProjects": "Projeler sayfasına dön",
       "techStackTitle": "Teknoloji yığını",

@@ -75,6 +75,10 @@
       "title": "Portfolio Website",
       "description": "Een minimale, professionele ontwikkelaar portfolio gebouwd met een aangepast design systeem en meertalige ondersteuning."
     },
+    "dateMeApp": {
+      "title": "Date Me App",
+      "description": "Een speelse, interactieve date-uitnodigingswebapp met een stapsgewijze flow, meertalige ondersteuning en EmailJS-bevestigingsmails. Gebouwd als een volledig statische React-app met een neobrutalistisch design."
+    },
     "detail": {
       "backToProjects": "Terug naar projecten",
       "techStackTitle": "Tech stack",

@@ -27,7 +27,7 @@ export const projects = [
     githubUrl: null,
     liveUrl: "https://thevirtue.co",
     image: null,
-    featured: true,
+    featured: false,
   },
   {
     id: "beykoy-dairies-website",
@@ -108,6 +108,16 @@ export const projects = [
     liveUrl: "https://arhan-konuksal.dev",
     image: null,
     featured: false,
+  },
+  {
+    id: "date-me-app",
+    titleKey: "projects.dateMeApp.title",
+    descriptionKey: "projects.dateMeApp.description",
+    stack: ["React", "Vite", "CSS", "i18n"],
+    githubUrl: "https://github.com/ArhanKonuksal/Date-Me-App",
+    liveUrl: "https://dateme.arhan-konuksal.dev",
+    image: null,
+    featured: true,
   },
 ];
 

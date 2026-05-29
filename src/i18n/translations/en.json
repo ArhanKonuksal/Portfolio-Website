@@ -75,6 +75,10 @@
       "title": "Portfolio Website",
       "description": "A minimal, professional developer portfolio built with a custom design system and multi-language support."
     },
+    "dateMeApp": {
+      "title": "Date Me App",
+      "description": "A playful, interactive date invitation web app with a step-by-step flow, multi-language support, and EmailJS confirmation emails. Built as a fully static React app with a neobrutalist design."
+    },
     "detail": {
       "backToProjects": "Back to projects",
       "techStackTitle": "Tech stack",
