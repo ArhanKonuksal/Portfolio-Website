@@ -25,7 +25,7 @@ export const stack = {
   },
   languages: {
     labelKey: "stack.languages",
-    items: ["English", "Turkish", "Dutch"],
+    items: ["English", "Turkish"],
   },
 };
 

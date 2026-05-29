@@ -7,7 +7,7 @@ import { Section, Button, CountUp } from "../../ui";
 const stats = [
   { value: 10, suffix: "+", labelKey: "home.stats.projects" },
   { value: 15, suffix: "+", labelKey: "home.stats.technologies" },
-  { value: 3, suffix: "", labelKey: "home.stats.languages" },
+  { value: 2, suffix: "", labelKey: "home.stats.languages" },
 ];
 
 const IntroSection = () => {

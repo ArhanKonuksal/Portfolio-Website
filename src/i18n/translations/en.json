@@ -47,6 +47,10 @@
       "title": "Beyköy Dairies Website",
       "description": "Corporate presentation website with multi-language support for Beyköy Dairies."
     },
+    "cyprusVipAuto": {
+      "title": "Cyprus VIP Auto Website",
+      "description": "A modern, fast corporate website built with React and Vite for Cyprus VIP Auto, a premium car rental service."
+    },
     "ldh": {
       "title": "Liberal Democracy Movement Website",
       "description": "Corporate and informational website with multi-language support for the Liberal Democracy Movement."

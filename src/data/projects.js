@@ -40,6 +40,16 @@ export const projects = [
     featured: false,
   },
   {
+    id: "cyprus-vip-auto-website",
+    titleKey: "projects.cyprusVipAuto.title",
+    descriptionKey: "projects.cyprusVipAuto.description",
+    stack: ["React", "React Router", "CSS", "Vite"],
+    githubUrl: null,
+    liveUrl: "https://cyprusvipauto.com/",
+    image: null,
+    featured: true,
+  },
+  {
     id: "ldh-website",
     titleKey: "projects.ldh.title",
     descriptionKey: "projects.ldh.description",
@@ -57,7 +67,7 @@ export const projects = [
     githubUrl: null,
     liveUrl: "https://kibrisgenclikgelisim.com/en/",
     image: "/images/projects/kibris-genclik-dernegi-website.png",
-    featured: true,
+    featured: false,
   },
   {
     id: "mu-torere-game",

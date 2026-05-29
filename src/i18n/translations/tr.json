@@ -47,6 +47,10 @@
       "title": "Beyköy Süt Ürünleri Web Sitesi",
       "description": "Beyköy Süt Ürünleri için çoklu dil desteğine sahip kurumsal tanıtım web sitesi."
     },
+    "cyprusVipAuto": {
+      "title": "Cyprus VIP Auto Web Sitesi",
+      "description": "Premium araç kiralama hizmeti sunan Cyprus VIP Auto için React ve Vite ile geliştirilmiş modern ve hızlı kurumsal web sitesi."
+    },
     "ldh": {
       "title": "Liberal Demokrasi Hareketi Web Sitesi",
       "description": "Liberal Demokrasi Hareketi için çoklu dil desteğine sahip kurumsal ve bilgilendirme amaçlı web sitesi."
