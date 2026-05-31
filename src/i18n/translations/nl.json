@@ -100,7 +100,6 @@
   },
 
   "home": {
-    "scrollDown": "Scroll naar beneden",
     "about": {
       "sectionTitle": "Over Mij",
       "cta": "Meer Over Mij →"
@@ -140,6 +139,8 @@
     "form": {
       "fullNameLabel": "Volledige naam",
       "emailLabel": "E-mail",
+      "emailRequired": "E-mailadres is verplicht.",
+      "emailInvalid": "Voer een geldig e-mailadres in.",
       "messageLabel": "Bericht",
       "submitLabel": "Versturen"
     }

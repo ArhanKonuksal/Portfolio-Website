@@ -520,7 +520,7 @@
   justify-content: center;
   width: 40px;
   height: 40px;
-  color: var(--color-text-secondary);
+  color: var(--color-accent);
   text-decoration: none;
   border-radius: var(--border-radius-sm);
   transition: color var(--transition-fast), background-color var(--transition-fast);
@@ -528,7 +528,7 @@
 }
 
 .footer-link:hover {
-  color: var(--color-text);
+  color: var(--color-accent-hover);
   background-color: var(--color-bg-secondary);
   opacity: 1;
 }
@@ -537,6 +537,7 @@
   width: 20px;
   height: 20px;
   pointer-events: none;
+  color: inherit;
 }
 
 /* Copy Toast Notification */
@@ -767,6 +768,21 @@
   border-color: var(--color-accent);
   box-shadow: 0 0 0 1px var(--color-accent);
   background-color: var(--color-bg-secondary);
+}
+
+.form-input--error {
+  border-color: #dc2626;
+}
+
+.form-input--error:focus {
+  border-color: #dc2626;
+  box-shadow: 0 0 0 1px #dc2626;
+}
+
+.form-error {
+  font-size: var(--font-size-small);
+  color: #dc2626;
+  margin: 0;
 }
 
 .form-textarea {
@@ -1171,37 +1187,6 @@
   margin-right: 0;
 }
 
-.hero-scroll-indicator {
-  position: relative;
-  bottom: auto;
-  left: auto;
-  transform: none;
-  align-self: center;
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: var(--space-1);
-  z-index: 1;
-  margin-top: var(--space-2);
-}
-
-.hero-scroll-text {
-  font-size: 0.6875rem;
-  color: var(--color-text-secondary);
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  font-weight: var(--font-weight-medium);
-}
-
-.hero-scroll-line {
-  width: 1px;
-  height: 40px;
-  background-color: var(--color-text-secondary);
-  transform-origin: top;
-  opacity: 0.4;
-}
-
 @media (max-width: 767px) {
   .hero-gradient-blob {
     width: 300px;
@@ -1236,10 +1221,6 @@
   .hero-subheadline {
     margin-bottom: var(--space-3);
     font-size: var(--font-size-body);
-  }
-
-  .hero-scroll-line {
-    height: 28px;
   }
 }
 

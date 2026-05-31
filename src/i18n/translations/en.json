@@ -100,7 +100,6 @@
   },
 
   "home": {
-    "scrollDown": "Scroll down",
     "about": {
       "sectionTitle": "About Me",
       "cta": "Learn More About Me →"
@@ -140,6 +139,8 @@
     "form": {
       "fullNameLabel": "Full Name",
       "emailLabel": "Email",
+      "emailRequired": "Email is required.",
+      "emailInvalid": "Please enter a valid email address.",
       "messageLabel": "Message",
       "submitLabel": "Send"
     }

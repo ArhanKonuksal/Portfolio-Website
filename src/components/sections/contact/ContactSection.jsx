@@ -1,12 +1,46 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import ReCAPTCHA from "react-google-recaptcha";
 import { Button, Section } from "../../ui";
 import { RECAPTCHA_SITE_KEY } from "../../../env";
 
+const EMAIL_REGEX = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+const isValidEmail = (value) => EMAIL_REGEX.test(value.trim());
+
 const ContactSection = () => {
   const { t } = useTranslation();
   const recaptchaRef = useRef(null);
+  const [emailError, setEmailError] = useState("");
+
+  const validateEmail = (value) => {
+    if (!value.trim()) {
+      return t("contact.form.emailRequired");
+    }
+    if (!isValidEmail(value)) {
+      return t("contact.form.emailInvalid");
+    }
+    return "";
+  };
+
+  const handleEmailBlur = (event) => {
+    setEmailError(validateEmail(event.target.value));
+  };
+
+  const handleEmailChange = (event) => {
+    if (emailError) {
+      setEmailError(validateEmail(event.target.value));
+    }
+  };
+
+  const handleSubmit = (event) => {
+    const error = validateEmail(event.target.email.value);
+    if (error) {
+      event.preventDefault();
+      setEmailError(error);
+      event.target.email.focus();
+    }
+  };
 
   return (
     <>
@@ -23,6 +57,8 @@ const ContactSection = () => {
             action="https://formspree.io/f/xqedpnpv"
             method="POST"
             className="contact-form"
+            onSubmit={handleSubmit}
+            noValidate
           >
             <div className="form-grid">
               <div className="form-field">
@@ -46,9 +82,19 @@ const ContactSection = () => {
                   id="email"
                   type="email"
                   name="email"
-                  className="form-input"
+                  className={`form-input${emailError ? " form-input--error" : ""}`}
                   required
+                  autoComplete="email"
+                  aria-invalid={emailError ? "true" : "false"}
+                  aria-describedby={emailError ? "email-error" : undefined}
+                  onBlur={handleEmailBlur}
+                  onChange={handleEmailChange}
                 />
+                {emailError && (
+                  <p id="email-error" className="form-error" role="alert">
+                    {emailError}
+                  </p>
+                )}
               </div>
             </div>
 

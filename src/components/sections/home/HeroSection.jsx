@@ -74,21 +74,6 @@ const HeroSection = () => {
           </Button>
         </m.div>
       </m.div>
-
-      <m.div
-        className="hero-scroll-indicator"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 2.5, duration: 1 }}
-        aria-hidden="true"
-      >
-        <span className="hero-scroll-text">{t("home.scrollDown")}</span>
-        <m.div
-          className="hero-scroll-line"
-          animate={{ scaleY: [0, 1, 0] }}
-          transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
-        />
-      </m.div>
     </Section>
   );
 };
