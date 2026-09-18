@@ -79,6 +79,10 @@
       "title": "Date Me Uygulaması",
       "description": "Adım adım akış, çoklu dil desteği ve EmailJS onay e-postaları sunan eğlenceli, interaktif bir randevu davet web uygulaması. Neobrutalist tasarımla tamamen statik bir React uygulaması olarak geliştirildi."
     },
+    "worldCup2026PredictionApp": {
+      "title": "World Cup 2026 Tahmin Uygulaması",
+      "description": "World Cup 2026 tahmin uygulaması, React, Vite, TypeScript, CSS ve i18n kullanarak geliştirildi."
+    },
     "detail": {
       "backToProjects": "Projeler sayfasına dön",
       "techStackTitle": "Teknoloji yığını",
