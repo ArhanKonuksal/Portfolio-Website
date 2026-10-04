@@ -83,6 +83,10 @@
       "title": "World Cup 2026 Tahmin Uygulaması",
       "description": "World Cup 2026 tahmin uygulaması, React, Vite, TypeScript, CSS ve i18n kullanarak geliştirildi."
     },
+    "matchPredictorApp": {
+      "title": "Maç Tahmin Uygulaması",
+      "description": "Maç tahmin uygulaması, React, Vite, TypeScript, CSS ve i18n kullanarak geliştirildi."
+    },
     "detail": {
       "backToProjects": "Projeler sayfasına dön",
       "techStackTitle": "Teknoloji yığını",

@@ -1,11 +1,11 @@
 export const stack = {
   frontend: {
     labelKey: "stack.frontend",
-    items: ["React", "Vite", "HTML", "CSS", "JavaScript"],
+    items: ["React", "Vite", "HTML", "CSS", "JavaScript", "TypeScript", "Java"],
   },
   backend: {
     labelKey: "stack.backend",
-    items: ["Node.js", "Express", "REST APIs"],
+    items: ["Node.js", "Express", "REST APIs", "Java Spring"],
   },
   database: {
     labelKey: "stack.database",
@@ -13,7 +13,7 @@ export const stack = {
   },
   tools: {
     labelKey: "stack.tools",
-    items: ["Git", "Docker", "Clean Architecture", "RESTful Design"],
+    items: ["Git", "Docker", "Kubernetes"],
   },
   testing: {
     labelKey: "stack.testing",
